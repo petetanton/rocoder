@@ -1,0 +1,6 @@
+### Rocoder Git Ignore
+
+# IntelliJ
+.idea/*
+*.iml
+
