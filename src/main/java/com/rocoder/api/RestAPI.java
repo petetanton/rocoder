@@ -12,7 +12,6 @@ import java.io.IOException;
 
 @Path("/api")
 public class RestAPI {
-    private String exampleAWSKey = "ASFHWUYAAJSHEAJSNFH";
     @GET
     @Path("/stream")
     public Response stream(@QueryParam("token") String token) {
